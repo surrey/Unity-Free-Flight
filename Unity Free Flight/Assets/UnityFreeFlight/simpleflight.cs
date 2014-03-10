@@ -66,7 +66,7 @@ public class simpleflight : MonoBehaviour {
 		aspectRatio = wingSpan / wingChord;
 			
 			
-		rigidbody.velocity = new Vector3(0.0f, 0.0f, 5.0f);
+		rigidbody.velocity = new Vector3(-5.0f, 0.0f, 0.0f);
 		// We don't want the rigidbody to determine our rotation,
 		// we will compute that ourselves
 		rigidbody.freezeRotation = true;
