@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{7D42436E-3C7E-21A8-B6A3-61743996C68C}") = "Unity Free Flight", "Assembly-CSharp.csproj", "{DBDB291A-44FA-CFDA-8D22-F95EC0051BA0}"
 EndProject
+Project("{7D42436E-3C7E-21A8-B6A3-61743996C68C}") = "Unity Free Flight", "Assembly-CSharp-Editor.csproj", "{E37CA806-4A31-C382-1CCF-3A3E005AA923}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,15 @@ Global
 		{DBDB291A-44FA-CFDA-8D22-F95EC0051BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBDB291A-44FA-CFDA-8D22-F95EC0051BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBDB291A-44FA-CFDA-8D22-F95EC0051BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E37CA806-4A31-C382-1CCF-3A3E005AA923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37CA806-4A31-C382-1CCF-3A3E005AA923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37CA806-4A31-C382-1CCF-3A3E005AA923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37CA806-4A31-C382-1CCF-3A3E005AA923}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+																																								GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -35,4 +41,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal

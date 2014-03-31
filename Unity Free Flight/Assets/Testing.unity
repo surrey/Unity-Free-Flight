@@ -146,8 +146,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 329372865}
-  - 114: {fileID: 329372869}
   - 54: {fileID: 329372870}
+  - 114: {fileID: 329372867}
+  - 114: {fileID: 329372866}
   m_Layer: 0
   m_Name: Test Dummy
   m_TagString: Untagged
@@ -168,7 +169,7 @@ Transform:
   - {fileID: 1226477198}
   - {fileID: 761947243}
   m_Father: {fileID: 0}
---- !u!114 &329372869
+--- !u!114 &329372866
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -176,14 +177,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 329372864}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c2777f6e2cb845ad8aae462891d854f, type: 3}
+  m_Script: {fileID: 11500000, guid: d8a3e21c7cb954ef4b03bef029b9ced3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unit: 0
+  preset: 0
+--- !u!114 &329372867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 329372864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b89ea8d74632d426b92b28a508d1beb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   toggleStatsMenu: 1
   togglePhysicsMenu: 1
   toggleGravity: 1
   toggleLift: 1
-  toggleDrag: 0
+  toggleDrag: 1
   angleOfAttack: 0
   liftCoefficient: 1
   RotationSpeed: 200
@@ -192,12 +206,6 @@ MonoBehaviour:
   dragForce: 0
   LiftInducedDrag: 0
   formDrag: 0
-  wingChord: 0
-  wingSpan: 0
-  weight: 0
-  wingArea: 0
-  aspectRatio: 0
-  liftToWeightRatio: 0
   TESTVELOCITY: {x: 0, y: 0, z: 0}
   TESTMAGNITUDE: 0
   moveRotation: {x: 0, y: 0, z: 0}

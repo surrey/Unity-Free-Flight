@@ -46,7 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\UnityFreeFlight\scripts\model\flightBody.cs" />
+     <Compile Include="Assets\UnityFreeFlight\scripts\FlightBody.cs" />
+     <Compile Include="Assets\UnityFreeFlight\scripts\model\ExposeProperties.cs" />
+     <Compile Include="Assets\UnityFreeFlight\scripts\model\ExposePropertyAttribute.cs" />
+     <Compile Include="Assets\UnityFreeFlight\scripts\model\MyType.cs" />
      <Compile Include="Assets\UnityFreeFlight\scripts\model\flightPhysics.cs" />
      <Compile Include="Assets\UnityFreeFlight\scripts\simpleflight.cs" />
      <None Include="Assets\UnityFreeFlight\scripts\model\README.txt" />
